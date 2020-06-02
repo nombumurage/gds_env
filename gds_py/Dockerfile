@@ -60,6 +60,14 @@ RUN conda update conda --yes \
      'urbanaccess' \
      'xlrd' \
      'xlsxwriter' \
+     'numpy' \
+     'matplotlib' \
+     'hvplot' \
+     'proj' \
+     'cartopy' \
+     'geoviews' \
+     'panel' \
+     'movingpandas' \
  && conda clean --all --yes --force-pkgs-dirs \
  && find /opt/conda/ -follow -type f -name '*.a' -delete \
  && find /opt/conda/ -follow -type f -name '*.pyc' -delete \
